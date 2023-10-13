@@ -1,0 +1,86 @@
+{
+    "success": true,
+    "errorMessage": null,
+    "data": [
+        {
+            "dateEvent": "2023-03-23T13:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 1,
+            "descriptionService": "MEI_AC",
+            "percentualAtual": 30,
+            "percentualAnter": 20
+        },
+        {
+            "dateEvent": "2023-03-23T13:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 2,
+            "descriptionService": "MEI_AC_2",
+            "percentualAtual": 70,
+            "percentualAnter": 80
+        },
+        {
+            "dateEvent": "2023-03-23T14:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 1,
+            "descriptionService": "MEI_AC",
+            "percentualAtual": 90,
+            "percentualAnter": 30
+        },
+        {
+            "dateEvent": "2023-03-23T14:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 2,
+            "descriptionService": "MEI_AC_2",
+            "percentualAtual": 10,
+            "percentualAnter": 70
+        },
+        {
+            "dateEvent": "2023-03-23T15:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 1,
+            "descriptionService": "MEI_AC",
+            "percentualAtual": 50,
+            "percentualAnter": 30
+        },
+        {
+            "dateEvent": "2023-03-23T15:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 2,
+            "descriptionService": "MEI_AC_2",
+            "percentualAtual": 50,
+            "percentualAnter": 70
+        },
+        {
+            "dateEvent": "2023-03-23T16:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 1,
+            "descriptionService": "MEI_AC",
+            "percentualAtual": 60,
+            "percentualAnter": 30
+        },
+        {
+            "dateEvent": "2023-03-23T16:00:00.284Z",
+            "serviceID": 1,
+            "epsID": 2,
+            "descriptionService": "MEI_AC_2",
+            "percentualAtual": 40,
+            "percentualAnter": 70
+        },
+        {
+            "dateEvent": "2023-03-23T17:15:00.284Z",
+            "serviceID": 1,
+            "epsID": 1,
+            "descriptionService": "MEI_AC",
+            "percentualAtual": 100,
+            "percentualAnter": 30
+        },
+        {
+            "dateEvent": "2023-03-23T17:15:00.284Z",
+            "serviceID": 1,
+            "epsID": 2,
+            "descriptionService": "MEI_AC_2",
+            "percentualAtual": 0,
+            "percentualAnter": 70
+        }
+    ]
+}

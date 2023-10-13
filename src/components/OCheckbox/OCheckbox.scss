@@ -1,0 +1,86 @@
+@import "../../global/styles/variables.scss";
+
+.OCheckbox {
+  display: flex;
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .label {
+      position: relative;
+      top: 3px;
+    }
+  }
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+  }
+
+  .container:hover input ~ .checkmark {
+    border-color: $orange;
+  }
+
+  .container input:checked ~ .checkmark {
+    background-color: #fff;
+    border-color: $orange;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid $orange;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  &__InputText {
+    margin-left: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    width: 60px;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    border-radius: 4px;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    &--disable{
+      pointer-events: none;
+      background-color: #ccc;
+      opacity: .3;
+    }
+  }
+}

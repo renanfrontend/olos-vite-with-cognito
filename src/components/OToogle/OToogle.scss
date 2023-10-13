@@ -1,0 +1,54 @@
+@import "../../global/styles/variables.scss";
+
+.OToogle {
+  display: flex;
+  align-items: center;
+
+  &__Label {
+    margin-right: 10px;
+    user-select: none;
+  }
+
+  input[type="checkbox"] {
+    position: relative;
+    width: 32px;
+    height: 21px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid $gray;
+
+    // circle
+    &::before {
+      position: absolute;
+      content: "";
+      width: 13px;
+      height: 13px;
+      top: 50%;
+      left: 2px;
+      border-radius: 20px;
+      background-color: $gray;
+      transition: left 100ms linear;
+      transform: translateY(-50%);
+    }
+
+    // move to right
+    &:checked {
+      border-color: $orange;
+      &::before {
+        left: 13px;
+        background-color: $orange;
+      }
+    }
+  }
+
+  &--Change {
+    cursor: pointer;
+  }
+
+  &--disable{
+    pointer-events: none;
+    opacity: .4;
+    filter: grayscale(1);
+  }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "value": "averagetalkingtime",
+        "label": "TMA"
+    },
+    {
+        "value": "servicelevel",
+        "label": "SLA"
+    },
+    {
+        "value": "abandonrate",
+        "label": "ABANDONO"
+    },
+    {
+        "value": "averagewaitingtime",
+        "label": "TME"
+    },
+    {
+        "value": "netpromoterscore",
+        "label": "NPS"
+    },
+    {
+        "value": "number_of_calls",
+        "label": "NUMERO DE LIGAÇÕES"
+    }
+]

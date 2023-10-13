@@ -1,0 +1,56 @@
+@import "../../global/styles/variables.scss";
+
+.OModal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__Container {
+    position: relative;
+    background-color: #fff;
+    padding: 60px 40px 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 9px rgba(26, 26, 26, 0.16);
+    border-radius: 5px;
+    text-align: center;
+    width: 800px;
+    text-align: left;
+    overflow: hidden;
+    h1 {
+      font-size: 22px;
+      font-family: "Avenir-Heavy";
+    }
+    p {
+      color: #363636;
+      font-size: 18px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+  }
+  &__Info {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    &--erro{
+      fill: $red;
+    }
+  }
+  &__Close {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+  }
+  &__Children{
+    height: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+@import "../../global/styles/variables.scss";
+
+.OAcordeon {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+
+  &__Header {
+    padding: 18px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    color: $black;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: calc(100% - 36px);
+      height: 1px;
+      background-color: #c6c6c6;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &--close {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__Message{
+    font-size: 16px;
+  }
+  
+
+  &__Arrow {
+    width: 20px;
+    stroke: $orange;
+    transition: transform 0.2s;
+    transform: rotate(0);
+    &--close {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__Content {
+    overflow: hidden;
+    padding: 0 20px;
+    height: auto;
+    &--close {
+      height: 0;
+    }
+  }
+
+  &__Wrapper {
+    padding: 30px 0;
+  }
+
+  &--disable{
+    pointer-events: none;
+    filter: grayscale(1);
+  }
+}

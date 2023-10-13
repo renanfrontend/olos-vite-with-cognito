@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "values": [
+        {
+            "key": "teltelematica",
+            "value": 60
+        },
+        {
+            "key": "almaviva",
+            "value": 40
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+@import "../../global/styles/variables.scss";
+
+.OMenuItem {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  opacity: 0.5;
+  &__Label {
+    font-size: 20px;
+    font-family: "Avenir-Heavy";
+    color: $black;
+  }
+  &__Rec {
+    height: 100%;
+    width: 5px;
+    border-radius: 80px;
+    background-color: $orange;
+  }
+  &--activie {
+    opacity: 1;
+  }
+  &:hover {
+    .OMenuItem__Label {
+      text-decoration: underline;
+    }
+  }
+}

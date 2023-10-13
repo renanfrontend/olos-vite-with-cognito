@@ -1,0 +1,22 @@
+[
+    {
+        "id": "inicio",
+        "label": "Distribuidor de Chamadas",
+        "authorized": "agent"
+    },
+    {
+        "id": "indicadores",
+        "label": "Indicadores",
+        "authorized": "agent"
+    },
+    {
+        "id": "relatorio",
+        "label": "Relatório por Serviço",
+        "authorized": "agent"
+    },
+    {
+        "id": "bpos",
+        "label": "URA's e UF's",
+        "authorized": "olos"
+    }
+]

@@ -1,0 +1,28 @@
+// Sizes
+$headerH: 56px;
+$menuW: 15%;
+$contentW: 100% - $menuW;
+$minContentH: calc(100vh - $headerH - 40px);
+$scrollBar: 17px;
+
+//Spacing
+$sides: 40px;
+$topH: 40px;
+$topContent: 60px;
+$sidesContent: $sides + 56px + 20px;
+
+// Colors
+
+$orange: #ff6804;
+$white: #ffffff;
+$black: #363636;
+$light-gray: #efefef;
+$bold-gray: #737373;
+$bold-gray-2: #707070;
+$gray: #999999;
+$gray-2: #b3b3b3;
+$red: #ff0000;
+$green: #37f747;
+$warning: #ff6600;
+$loading-bg: #ccc;
+$loading-anim: #eee;

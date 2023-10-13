@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "errorMessage": null,
+  "data": [
+    {
+      "serviceID": 1,
+      "campaignID": 294,
+      "description": "URA_UNIFICADA_SEBRAE"
+    }
+  ]
+}

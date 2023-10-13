@@ -1,0 +1,22 @@
+@import "../../global/styles/variables.scss";
+
+.OCard {
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+  padding: 22px;
+  box-sizing: border-box;
+  width: fit-content;
+  min-width: 330px;
+  &__Title {
+    font-weight: 900;
+    font-size: 24px;
+    color: #363636;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+  &__SubTitle {
+    font-size: 15px;
+    color: #9a9a9a;
+    margin-bottom: 15px;
+  }
+}

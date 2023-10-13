@@ -1,0 +1,83 @@
+@import "../../global/styles/fonts.scss";
+
+.Login {
+  min-width: 800px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #363636;
+
+  &__Box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 8rem;
+    background-color: #fff;
+    position: relative;
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      font-weight: normal;
+      font-family: "Avenir-Regular";
+      span {
+        font-weight: 700;
+        font-family: "Avenir-Heavy";
+      }
+    }
+  }
+
+  &__Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    gap: 2rem;
+  }
+
+  &__LogoBox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6804;
+    position: absolute;
+    top: 0;
+    left: -60px;
+    svg {
+      width: 70%;
+    }
+  }
+
+  &__Title {
+    text-align: center;
+    &--error {
+      color: #d90f0f;
+    }
+  }
+
+  .OlosCognitoAuthForm {
+    border: none;
+    border-radius: 0;
+    padding: initial;
+    width: 400px;
+    .Input {
+      margin-bottom: 2rem;
+      &__Label {
+        display: none;
+      }
+      input {
+        border: 1px solid #707070;
+        height: 50px;
+      }
+    }
+    .Checkbox{
+      &__Label{
+        font-weight: normal;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.OTextArea {
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: "Avenir-Heavy";
+  }
+  textarea {
+    resize: none;
+    border-radius: 6px;
+    border: 2px solid #cccccc;
+    color: #333;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-family: "Avenir-Regular";
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  &__Length {
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+    color: #b0afaf;
+    text-align: right;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "errorMessage": null,
+  "data": [
+    {
+      "serviceID": 1,
+      "epsid": 1,
+      "transferType": 2,
+      "campaignID": 369,
+      "percentual": 20,
+      "route": "ROUTE",
+      "mcdu": "557131949355",
+      "description": "MEI_AC",
+      "iP_ECS": "172.10.11.20"
+    },
+    {
+      "serviceID": 1,
+      "epsid": 2,
+      "transferType": 1,
+      "campaignID": 369,
+      "percentual": 80,
+      "route": "ROUTE",
+      "mcdu": "557131949355",
+      "description": "MEI_AC",
+      "iP_ECS": "172.10.11.20"
+    }
+  ]
+}

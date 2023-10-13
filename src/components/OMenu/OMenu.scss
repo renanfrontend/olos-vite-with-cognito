@@ -1,0 +1,9 @@
+.OMenu {
+  width: 100%;
+  .OMenuItem {
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

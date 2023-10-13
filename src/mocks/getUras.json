@@ -1,0 +1,629 @@
+[
+    {
+        "id": 74,
+        "name": "ABC",
+        "ufs": [
+            {
+                "id": 34,
+                "code": "SC",
+                "fixed": 1,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 75
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 35
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 39,
+        "name": "COBRANCA",
+        "ufs": [],
+        "active": 1
+    },
+    {
+        "id": 75,
+        "name": "Giovanni",
+        "ufs": [
+            {
+                "id": 36,
+                "code": "AC",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 60
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 40
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 60
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 40
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 35,
+                "code": "AM",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 60
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 40
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 60
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 40
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 37,
+                "code": "AP",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 60
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 40
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 60
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 40
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 38,
+        "name": "MEI",
+        "ufs": [],
+        "active": 1
+    },
+    {
+        "id": 73,
+        "name": "NewOfNews-2",
+        "ufs": [],
+        "active": 1
+    },
+    {
+        "id": 66,
+        "name": "Novo",
+        "ufs": [
+            {
+                "id": 26,
+                "code": "AC",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 25,
+                "code": "AM",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 27,
+                "code": "AP",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 37,
+        "name": "SAC",
+        "ufs": [],
+        "active": 1
+    },
+    {
+        "id": 65,
+        "name": "Telegram",
+        "ufs": [
+            {
+                "id": 23,
+                "code": "PR",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 24,
+                "code": "RJ",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 22,
+                "code": "SP",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 72,
+        "name": "Telegram-2",
+        "ufs": [
+            {
+                "id": 32,
+                "code": "PR",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 33,
+                "code": "RJ",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 31,
+                "code": "SP",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 62,
+        "name": "TikTok",
+        "ufs": [
+            {
+                "id": 20,
+                "code": "AC",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 19,
+                "code": "AM",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 21,
+                "code": "AP",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 61,
+        "name": "Twitter",
+        "ufs": [
+            {
+                "id": 17,
+                "code": "RS",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 16,
+                "code": "SC",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    },
+    {
+        "id": 71,
+        "name": "VisualCode",
+        "fixed": 0,
+        "ufs": [
+            {
+                "id": 29,
+                "code": "AC",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 28,
+                "code": "AM",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            },
+            {
+                "id": 30,
+                "code": "AP",
+                "fixed": 0,
+                "balance": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "default_values": [
+                    {
+                        "key": "teltelematica",
+                        "value": 70
+                    },
+                    {
+                        "key": "almaviva",
+                        "value": 30
+                    }
+                ],
+                "active": 1
+            }
+        ],
+        "active": 1
+    }
+]

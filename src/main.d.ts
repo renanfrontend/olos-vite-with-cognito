@@ -1,0 +1,1 @@
+declare module '@olostecnologia/olos-cognito-auth'

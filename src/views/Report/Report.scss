@@ -1,0 +1,56 @@
+@import "../../global/styles/variables.scss";
+
+.Report {
+  &__Content {
+    display: grid;
+    padding: 0 40px 20px;
+    box-sizing: border-box;
+    gap: 30px;
+    grid-template-columns: 300px 1fr;
+  }
+
+  &__Main {
+    text-align: left;
+    width: 80%;
+  }
+
+  &__Explanation {
+    color: $black;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__Filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+    .Button {
+      width: 100%;
+    }
+  }
+
+  &__Dash {
+    width: 80%;
+  }
+
+  &__AllTabs {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  &__Tab {
+    margin-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: $black;
+    &:hover {
+      text-decoration: underline;
+      color: $orange;
+    }
+    &--activie {
+      text-decoration: underline;
+      color: $orange;
+    }
+  }
+}

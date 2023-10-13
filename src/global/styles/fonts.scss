@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url("../../assets/fonts/avenir_roman-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/avenir_roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("../../assets/fonts/Avenir-Heavy.woff") format("woff"),
+    url("../../assets/fonts/Avenir-Heavy.woff2") format("woff2"), url("../../assets/fonts/Avenir-Heavy.eot"),
+    url("../../assets/fonts/Avenir-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Avenir-Heavy.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("../../assets/fonts/Avenir-Roman.woff") format("woff"),
+    url("../../assets/fonts/Avenir-Roman.woff2") format("woff2"), url("../../assets/fonts/Avenir-Roman.eot"),
+    url("../../assets/fonts/Avenir-Roman.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Avenir-Roman.otf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

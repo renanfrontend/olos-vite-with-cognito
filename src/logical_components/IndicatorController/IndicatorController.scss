@@ -1,0 +1,22 @@
+.IndicatorController {
+  .OInputForm input {
+    font-size: 18px;
+  }
+  &__Name input {
+    font-weight: 700;
+  }
+
+  &__Goal input,
+  &__Value input {
+    text-align: center;
+  }
+
+  &--disable {
+    opacity: 0.5;
+  }
+
+  &--notAllowed {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}

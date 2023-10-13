@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "platform": "teltelematica",
+            "kpis": [
+                {
+                    "servicelevel": 70,
+                    "averagetalkingtime": 400,
+                    "averagewaitingtime": 90,
+                    "netpromoterscore": 4,
+                    "number_of_calls": 1250,
+                    "abandonrate": 5,
+                    "timestamp": "2023-06-21T09:00:00.000Z"
+                },
+                {
+                    "servicelevel": 70,
+                    "averagetalkingtime": 400,
+                    "averagewaitingtime": 90,
+                    "netpromoterscore": 4,
+                    "number_of_calls": 3000,
+                    "abandonrate": 5,
+                    "timestamp": "2023-06-21T09:15:00.000Z"
+                }
+            ]
+        },
+        {
+            "platform": "almaviva",
+            "kpis": [
+                {
+                    "servicelevel": 30,
+                    "averagetalkingtime": 50,
+                    "averagewaitingtime": 90,
+                    "netpromoterscore": 6,
+                    "number_of_calls": 1050,
+                    "abandonrate": 10,
+                    "timestamp": "2023-06-21T09:00:00.000Z"
+                },
+                {
+                    "servicelevel": 30,
+                    "averagetalkingtime": 50,
+                    "averagewaitingtime": 90,
+                    "netpromoterscore": 6,
+                    "number_of_calls": 200,
+                    "abandonrate": 10,
+                    "timestamp": "2023-06-21T09:15:00.000Z"
+                }
+            ]
+        }
+    ]
+}

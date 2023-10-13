@@ -1,0 +1,16 @@
+.OCheckboxGroup {
+  width: 100%;
+  display: flex;
+  &--column {
+    flex-direction: column;
+    .OCheckbox {
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &--row {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,19 @@
+.OLoading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__Icon {
+    width: 40px;
+    svg path,
+    svg rect {
+      fill: #ff6700;
+    }
+  }
+  &__Text {
+    font-weight: 500;
+  }
+  &--Float {
+    position: absolute;
+  }
+}

@@ -1,0 +1,80 @@
+[
+    {
+        "id": 10,
+        "name": "OLD_KPI",
+        "column_name": "oldkpi",
+        "type": "number",
+        "rule_id": 1,
+        "rule_name": "Maior que",
+        "target": 120,
+        "prompt": "-",
+        "weight": 150,
+        "on_off": 0,
+        "active": 1
+    },
+    {
+        "id": 2,
+        "name": "SLA",
+        "column_name": "servicelevel",
+        "type": "number",
+        "rule_id": 1,
+        "rule_name": "Maior que",
+        "target": 90,
+        "prompt": "%",
+        "weight": 20,
+        "on_off": 1,
+        "active": 1
+    },
+    {
+        "id": 5,
+        "name": "NPS",
+        "column_name": "netpromoterscore",
+        "type": "number",
+        "rule_id": 1,
+        "rule_name": "Maior que",
+        "target": 5,
+        "prompt": "%",
+        "weight": 20,
+        "on_off": 1,
+        "active": 1
+    },
+    {
+        "id": 4,
+        "name": "TME",
+        "column_name": "averagewaitingtime",
+        "type": "time",
+        "rule_id": 5,
+        "rule_name": "Menor que",
+        "target": 70,
+        "prompt": "HH:MM:SS",
+        "weight": 20,
+        "on_off": 1,
+        "active": 1
+    },
+    {
+        "id": 3,
+        "name": "ABANDONO",
+        "column_name": "abandonrate",
+        "type": "number",
+        "rule_id": 5,
+        "rule_name": "Menor que",
+        "target": 2,
+        "prompt": "%",
+        "weight": 20,
+        "on_off": 1,
+        "active": 1
+    },
+    {
+        "id": 1,
+        "name": "TMA",
+        "column_name": "averagetalkingtime",
+        "type": "time",
+        "rule_id": 5,
+        "rule_name": "Menor que",
+        "target": 180,
+        "prompt": "HH:MM:SS",
+        "weight": 20,
+        "on_off": 1,
+        "active": 1
+    }
+]

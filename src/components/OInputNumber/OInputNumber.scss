@@ -1,0 +1,44 @@
+.OInputNumber {
+  display: flex;
+  flex-direction: column;
+  &__Label {
+    font-family: "Avenir-Heavy";
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  &__Input {
+    height: 50px;
+    border: 1px solid hsl(0, 0%, 80%);
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+
+  &__Value {
+    width: 90%;
+    input {
+      border: none;
+      outline: none;
+      color: #363636;
+      font-size: 16px;
+    }
+  }
+
+  &__Controllers {
+    color: #363636;
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &__Minus {
+    font-size: 22px;
+  }
+}

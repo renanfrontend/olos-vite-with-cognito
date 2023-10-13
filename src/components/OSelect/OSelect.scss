@@ -1,0 +1,20 @@
+.OSelect {
+  text-align: left;
+  &__Label {
+    font-family: "Avenir-Heavy";
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  &__Help{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  &--Disable{
+    opacity: .3;
+    pointer-events: none;
+  }
+}

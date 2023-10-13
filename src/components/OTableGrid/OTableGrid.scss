@@ -1,0 +1,69 @@
+@import "../../global/styles/variables.scss";
+
+$gap: 20px;
+
+.OTableGrid {
+  width: 100%;
+  height: 100%;
+  color: $black;
+
+  &__Header {
+    display: grid;
+    border-bottom: 3px solid $light-gray;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+    gap: $gap;
+    div {
+      font-size: 18px;
+      font-family: "Avenir-Heavy";
+    }
+    &--ScrollY {
+      padding-right: calc(20px + $scrollBar);
+    }
+  }
+  &__Columns,
+  &__HeaderColumns {
+    text-align: left;
+  }
+
+  &__Columns {
+    display: grid;
+    box-sizing: border-box;
+    border-bottom: 3px solid $light-gray;
+    padding: 10px 0;
+    gap: $gap;
+    align-items: center;
+    &:last-child {
+      border: none;
+    }
+    &--click {
+      cursor: pointer;
+      &:hover {
+        background-color: #fafafa;
+      }
+    }
+  }
+
+  &__Body {
+    &--ScrollX {
+      overflow-x: scroll;
+    }
+    &--ScrollY {
+      overflow-y: scroll;
+      padding-right: 20px;
+    }
+  }
+
+  &__Content {
+    &--textOverflow {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__noDataMessage {
+    text-align: center;
+    padding: 30px;
+  }
+}

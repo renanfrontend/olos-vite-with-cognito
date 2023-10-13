@@ -1,0 +1,121 @@
+@import "../../global/styles/variables.scss";
+
+.RegionalController {
+  &__General {
+    .OToogle {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__ReachTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  &__ReachNumber {
+    font-size: 24px;
+    color: $bold-gray;
+    small {
+      font-size: 18px;
+    }
+    ul {
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__Dot {
+    margin: 15px 0;
+    width: 10px;
+    height: 4px;
+    background-color: $orange;
+  }
+
+  &__Label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  &__Separator {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    font-size: 12px;
+    &::after {
+      content: "";
+      position: absolute;
+      width: calc(50% - 20px);
+      height: 2px;
+      background-color: $orange;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(50% - 20px);
+      height: 2px;
+      background-color: $orange;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__Input {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: $bold-gray;
+    .OInputForm {
+      width: 70px;
+      margin-right: 10px;
+      .OInputForm__Input {
+        color: $bold-gray;
+      }
+    }
+    &--disable {
+      pointer-events: none;
+      opacity: 0.4;
+    }
+  }
+
+  &--disable {
+    pointer-events: none;
+    opacity: 0.4;
+  }
+
+  &__BPOEdit {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    cursor: pointer;
+    &--Icon {
+      width: 15px;
+      margin-left: 10px;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  // &__BPO {
+  //   p {
+  //     color: #0000a8;
+  //     text-decoration: underline;
+  //     cursor: pointer;
+  //     display: flex;
+  //     align-items: center;
+      &:hover {
+        text-decoration: none;
+      }
+  //   }
+  // }
+
+  &__And {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+}

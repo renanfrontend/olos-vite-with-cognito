@@ -1,0 +1,25 @@
+@import "../../global/styles/variables.scss";
+
+.OFieldToogle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  &__Value {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid $gray-2;
+    border-radius: 6px;
+    min-width: 239px;
+    padding: 0 8px;
+    margin-right: 16px;
+    width: calc(100% - 16px - 32px);
+    font-size: 18px;
+  }
+  &--disable{
+    .OFieldToogle__Value{
+        opacity: .5;
+        border-color: $gray;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Maior que",
+        "symbol": ">",
+        "active": 1
+    },
+    {
+        "id": 2,
+        "name": "Maior que ou igual a",
+        "symbol": ">=",
+        "active": 1
+    },
+    {
+        "id": 3,
+        "name": "Igual a",
+        "symbol": "=",
+        "active": 1
+    },
+    {
+        "id": 4,
+        "name": "Menor que ou igual a",
+        "symbol": "<=",
+        "active": 1
+    },
+    {
+        "id": 5,
+        "name": "Menor que",
+        "symbol": "<",
+        "active": 1
+    }
+]

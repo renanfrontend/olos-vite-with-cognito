@@ -1,0 +1,63 @@
+@import "../../global/styles/variables.scss";
+
+.ODrop {
+  position: relative;
+  &__Button {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: $orange;
+    cursor: pointer;
+    span {
+      font-size: 18px;
+      color: $white;
+      user-select: none;
+    }
+  }
+  &__Icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+    fill: $white;
+  }
+  &__Arrow {
+    stroke: $white;
+    width: 12px;
+    height: 16px;
+    margin-left: 15px;
+  }
+
+  &__Content {
+    display: none;
+    padding: 25px;
+    border: 1px solid $gray-2;
+    background-color: $white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    &--open {
+      display: block;
+    }
+    &--float {
+      position: absolute;
+    }
+  }
+
+  &--disable {
+    .ODrop__Button {
+      background-color: $light-gray;
+      span {
+        color: $gray;
+      }
+    }
+    .ODrop__Icon {
+      fill: $gray;
+    }
+    .ODrop__Arrow {
+      stroke: $gray;
+    }
+  }
+}
