@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@kurkle/color": "^0.3.2",
-    "@olostecnologia/olos-cognito-auth": "^0.2.96",
+    "@olostecnologia/olos-cognito-auth": "^0.3.50",
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
